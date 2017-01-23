@@ -1,0 +1,7 @@
+{
+  "structure": {
+    "readme": "INTRO.md"
+  },
+  "title": "npm Orgs Documentation",
+  "plugins" : [ "anchors" ]
+}
