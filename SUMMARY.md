@@ -2,8 +2,10 @@
 
 - [Getting Started](getting-started.md)
 - [Roles and Privileges](roles-and-privileges.md)
+- [Managing Members](managing-members.md)
 - [The Developers Team](the-developers-team.md)
-- [Managing Members and Teams](managing-members-and-teams.md)
+- [Managing Teams](managing-teams.md)
 - [Managing Package Access](managing-package-access.md)
 - [Migrating a User Account](migrating-a-user-account.md)
+- [Managing Billing](managing-billing.md)
 - [Renaming and/or Deleting an Org](renaming-and-or-deleting-an-org.md)
