@@ -4,9 +4,6 @@ npm Organizations are a great way to [manage access to packages], particularly
 if you are collaborating 3 or more people. This page will teach you how to
 navigate the web interface to create an npm Organization.
 
-Already have an Organization?
-[Skip ahead to learn about managing Members and Teams].
-
 <hr/>
 
 
@@ -106,7 +103,5 @@ npm username, they'll need to create an npm user account. You can send them
 [Learn more about the Developers Team]: /the-developers-team.md
 [Learn more about migrating a user account]: /migrating-a-user-account.md
 [Learn more about renaming and/or deleting your Organization]: renaming-and-or-deleting-an-org.md 
-[Skip ahead to learn about managing Members and Teams]: /managing-members-and-teams.md
-[manage access to packages]: managing-package-access.md
 [1]: https://www.npmjs.com/signup
 
