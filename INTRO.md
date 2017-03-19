@@ -46,8 +46,7 @@ scoped packages alike.
 
 ## What does Orgs cost?
 
-Orgs are free to use for any npm user for any set of public packages. If
-you'd like to also have private packages, Orgs are available at $7/user,
-for all users you would like to grant read or write access to private
-packages. If a user only needs to interact with your public packages, you
-are not charged.
+Orgs are **free** if your organization only has public packages.
+
+If your organization needs to also publish and install **private packages**,
+an Org will cost you $7/user/month, for all users.
