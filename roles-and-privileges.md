@@ -11,10 +11,10 @@ different aspects of the Organization.
 
 There are several types of management in an Organization:
 
-- [Package access management]
+- [Billing management]
 - [Member management]
 - [Team maangement]
-- [Billing management]
+- [Package access management]
 
 There are three (3) roles in an Organization:
 
