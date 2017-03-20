@@ -12,7 +12,7 @@ git config user.email "ashley666ashley@gmail.com"
 
 git remote add upstream "https://$GH_TOKEN@github.com/npm/orgs-docs.git"
 git fetch upstream
-git reset upstream/gh-pages
+git reset upstream/deploy-production
 
 touch .
 
