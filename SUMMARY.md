@@ -6,6 +6,7 @@
 - [The Developers Team](the-developers-team.md)
 - [Managing Teams](managing-teams.md)
 - [Publishing an Org Scoped Package](publishing-an-org-scoped-package.md)
+- [Configuring npm for your Org](configuring-npm-for-your-org.md)
 - [Managing Package Access](managing-package-access.md)
 - [Migrating a User Account](migrating-a-user-account.md)
 - [Managing Billing](managing-billing.md)
