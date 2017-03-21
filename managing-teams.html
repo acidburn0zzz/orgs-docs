@@ -1,0 +1,476 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Managing Teams · npm Orgs Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="publishing-an-org-scoped-package.html" />
+    
+    
+    <link rel="prev" href="the-developers-team.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="getting-started.html">
+            
+                <a href="getting-started.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="roles-and-privileges.html">
+            
+                <a href="roles-and-privileges.html">
+            
+                    
+                    Roles and Privileges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="managing-members.html">
+            
+                <a href="managing-members.html">
+            
+                    
+                    Managing Members
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="the-developers-team.html">
+            
+                <a href="the-developers-team.html">
+            
+                    
+                    The Developers Team
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="managing-teams.html">
+            
+                <a href="managing-teams.html">
+            
+                    
+                    Managing Teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="publishing-an-org-scoped-package.html">
+            
+                <a href="publishing-an-org-scoped-package.html">
+            
+                    
+                    Publishing an Org Scoped Package
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="configuring-npm-for-your-org.html">
+            
+                <a href="configuring-npm-for-your-org.html">
+            
+                    
+                    Configuring npm for your Org
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="managing-package-access.html">
+            
+                <a href="managing-package-access.html">
+            
+                    
+                    Managing Package Access
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="migrating-a-user-account.html">
+            
+                <a href="migrating-a-user-account.html">
+            
+                    
+                    Migrating a User Account
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="managing-billing.md">
+            
+                <span>
+            
+                    
+                    Managing Billing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="renaming-and-or-deleting-an-org.md">
+            
+                <span>
+            
+                    
+                    Renaming and/or Deleting an Org
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Managing Teams</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="managing-teams"><a name="managing-teams" class="plugin-anchor" href="#managing-teams"><i class="fa fa-link" aria-hidden="true"></i></a>Managing Teams</h1>
+<p>The key to managing package access in an Organization is Teams.
+<strong>Teams are sets of Organization Members that have defined privileges
+for a set of packages that are controlled by the Organization</strong>.
+This page will teach you how to create and manage the 
+membership of your Organization&apos;s team from the web interface.</p>
+<p>If you would like to manage the membership of your Team from
+the npm command line interface (CLI), you can use:</p>
+<pre><code>npm team
+</code></pre><p>Learn more about <code>npm team</code> <a href="https://docs.npmjs.com/cli/team" target="_blank">here</a>.</p>
+<p>If you are looking for how to manage a Team&apos;s Package Access, check
+out <a href="managing-package-access.html">this doc</a>.</p>
+<p>You will need to have the <strong>Owner</strong> or <strong>Admin</strong> Role to perform this
+work. For more information on <strong>Roles</strong>, check out the 
+<a href="roles-and-privileges.html">Roles and Privileges doc</a>.</p>
+<hr>
+
+<p>To manage your Organization&apos;s Teams, navigate to your
+Organizations landing page. You can find it at
+<code>https://www.npmjs.com/org/&lt;org_name&gt;</code>.</p>
+<p>Once you are on your Organization&apos;s landing page, click the &quot;Teams&quot; tab.
+You can also just point your browser at 
+<code>https://www.npmjs.com/org/&lt;org_name&gt;/teams</code>.</p>
+<h2 id="creating-a-team"><a name="creating-a-team" class="plugin-anchor" href="#creating-a-team"><i class="fa fa-link" aria-hidden="true"></i></a>Creating a Team</h2>
+<p>To create a team:</p>
+<ol>
+<li>Click the &quot;Create a Team&quot; button</li>
+<li>Give your team a name. Your team name must be lower case and have no
+spaces or punctuation. Choose wisely! A team&apos;s name cannot be changed.</li>
+<li>Optionally, give your team a description.</li>
+<li>Optionally, add Organization members to your team. You can always
+add (or remove!) members later, so feel free to skip this.</li>
+<li>Click the &quot;make it so&quot; button.</li>
+</ol>
+<h4 id="notes"><a name="notes" class="plugin-anchor" href="#notes"><i class="fa fa-link" aria-hidden="true"></i></a>Notes</h4>
+<ul>
+<li>Inviting an Organization Member to a new team does not send that user
+an email. Make sure to tell your new team member that you added them.</li>
+<li>New teams do not have any package access by default. Once you create
+a team, you should add Package Access to the Team. 
+(<a href="managing-package-access.html">Learn more about managing Package Access</a>).</li>
+</ul>
+<h2 id="managing-team-membership"><a name="managing-team-membership" class="plugin-anchor" href="#managing-team-membership"><i class="fa fa-link" aria-hidden="true"></i></a>Managing Team Membership</h2>
+<p>To manage the membership of a Team, navigate to your Team&apos;s landing page.
+You can find a list of your teams at <code>https://www.npmjs.com/org/&lt;org_name&gt;/teams</code>.</p>
+<p>From this list, you can click the value in the &quot;members&quot; column. </p>
+<ul>
+<li>If the Team has members, this value will be the current Member Count. Clicking
+this value will bring you to the Members tab for this team.</li>
+<li>If the Team does not have any members, this value will read &quot;invite users&quot;.
+Clicking this value will bring you to the Team Member Invite page.</li>
+</ul>
+<p>You can also navigate to your Team page directly by point your browser at
+<code>https://www.npmjs.com/org/&lt;org_name&gt;/teams/&lt;team_name&gt;</code>.</p>
+<p>From there, click the &quot;Members&quot; tab. You&apos;ll use this interface to manage the
+membership of your Team.</p>
+<h3 id="adding-a-member-to-a-team"><a name="adding-a-member-to-a-team" class="plugin-anchor" href="#adding-a-member-to-a-team"><i class="fa fa-link" aria-hidden="true"></i></a>Adding a Member to a Team</h3>
+<p>To add a member to a team:</p>
+<ol>
+<li>Enter the npm username of the user you would like to add to your Team.</li>
+<li>Click the &quot;add&quot; button.</li>
+<li>Repeat this until you have added all the members you would like to.</li>
+<li>Click &quot;make it so&quot; button.</li>
+</ol>
+<p>To save time, you can populate your team from an existing team. To populate
+your team from an existing team:</p>
+<ol>
+<li>Choose the team you would like to populate your new team from in the 
+dropdown at the top of the page.</li>
+<li>When you release the dropdown, you should see the usernames of the members
+of that previously existing team appear in the list of Users to be added to
+your team.</li>
+</ol>
+<h4 id="notes"><a name="notes" class="plugin-anchor" href="#notes"><i class="fa fa-link" aria-hidden="true"></i></a>Notes</h4>
+<ul>
+<li>Adding a Organization member to a new Team does not send them an email. Let
+your new team member know that you added them to a new team!</li>
+<li>You cannot add a user who is not a member of your Organization to a Team. 
+Ask an Owner to invite them to the Organization so that you can add them to
+a Team. (<a href="managing-members.html">Learn more about managing Members</a>).</li>
+<li>Organization Members cost $7/member/month if the Organization has Private
+Packages even if the Teams the Member is a part of do not have access to
+Private Packages. </li>
+</ul>
+<h3 id="removing-a-member-from-a-team"><a name="removing-a-member-from-a-team" class="plugin-anchor" href="#removing-a-member-from-a-team"><i class="fa fa-link" aria-hidden="true"></i></a>Removing a Member from a Team</h3>
+<p>To remove a member from a Team:</p>
+<ol>
+<li>Locate the <strong>Member</strong> in the list of members.</li>
+<li>Click the white X in the grey circle at the far right of the row.</li>
+<li>The page will refresh. You should see a message telling you the status of your
+delete request. If your delete request was successful, you should no longer see
+the member you deleted in the list of members.</li>
+</ol>
+<h4 id="notes"><a name="notes" class="plugin-anchor" href="#notes"><i class="fa fa-link" aria-hidden="true"></i></a>Notes</h4>
+<ul>
+<li>Removing a Member from a Team, even if it is the only Team they are associated
+with, will <strong>not</strong> remove the Member from the Organization. If you would like to
+remove the Member from the Organization, you will need to be an Owner or ask
+an Owner. (<a href="managing-members.html">Learn more about managing Members</a>). </li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="the-developers-team.html" class="navigation navigation-prev " aria-label="Previous page: The Developers Team">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="publishing-an-org-scoped-package.html" class="navigation navigation-next " aria-label="Next page: Publishing an Org Scoped Package">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Managing Teams","level":"1.6","depth":1,"next":{"title":"Publishing an Org Scoped Package","level":"1.7","depth":1,"path":"publishing-an-org-scoped-package.md","ref":"publishing-an-org-scoped-package.md","articles":[]},"previous":{"title":"The Developers Team","level":"1.5","depth":1,"path":"the-developers-team.md","ref":"the-developers-team.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"npm Orgs Documentation","gitbook":"*"},"file":{"path":"managing-teams.md","mtime":"2017-03-21T01:30:07.445Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-21T01:31:13.910Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

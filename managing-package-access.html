@@ -1,0 +1,408 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Managing Package Access · npm Orgs Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="migrating-a-user-account.html" />
+    
+    
+    <link rel="prev" href="configuring-npm-for-your-org.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="getting-started.html">
+            
+                <a href="getting-started.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="roles-and-privileges.html">
+            
+                <a href="roles-and-privileges.html">
+            
+                    
+                    Roles and Privileges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="managing-members.html">
+            
+                <a href="managing-members.html">
+            
+                    
+                    Managing Members
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="the-developers-team.html">
+            
+                <a href="the-developers-team.html">
+            
+                    
+                    The Developers Team
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="managing-teams.html">
+            
+                <a href="managing-teams.html">
+            
+                    
+                    Managing Teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="publishing-an-org-scoped-package.html">
+            
+                <a href="publishing-an-org-scoped-package.html">
+            
+                    
+                    Publishing an Org Scoped Package
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="configuring-npm-for-your-org.html">
+            
+                <a href="configuring-npm-for-your-org.html">
+            
+                    
+                    Configuring npm for your Org
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9" data-path="managing-package-access.html">
+            
+                <a href="managing-package-access.html">
+            
+                    
+                    Managing Package Access
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="migrating-a-user-account.html">
+            
+                <a href="migrating-a-user-account.html">
+            
+                    
+                    Migrating a User Account
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="managing-billing.md">
+            
+                <span>
+            
+                    
+                    Managing Billing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="renaming-and-or-deleting-an-org.md">
+            
+                <span>
+            
+                    
+                    Renaming and/or Deleting an Org
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Managing Package Access</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="managing-package-access"><a name="managing-package-access" class="plugin-anchor" href="#managing-package-access"><i class="fa fa-link" aria-hidden="true"></i></a>Managing Package Access</h1>
+<p>The key to managing package access in an Organization is Teams.
+<strong>Teams are sets of Organization Members that have defined privileges
+for a set of packages that are controlled by the Organization</strong>.
+This page will teach you how to create and manage the 
+membership of your Organization&apos;s team from the web interface.</p>
+<p>If you would like to manage the package access of your Team from
+the npm command line interface (CLI), you can use:</p>
+<pre><code>npm access
+</code></pre><p>Learn more about <code>npm access</code> <a href="https://docs.npmjs.com/cli/access" target="_blank">here</a>.</p>
+<p>If you are looking for how to manage a Team&apos;s Membership, check
+out <a href="managing-teams.html">this doc</a>.</p>
+<p>You will need to have the <strong>Owner</strong> or <strong>Admin</strong> Role to perform this
+work. For more information on <strong>Roles</strong>, check out the 
+<a href="roles-and-privileges.html">Roles and Privileges doc</a>.</p>
+<hr>
+
+<p>To manage the package access of a Team, navigate to your Team&apos;s landing page.
+You can find a list of your teams at <code>https://www.npmjs.com/org/&lt;org_name&gt;/teams</code>.</p>
+<p>From this list, you can click the value in the &quot;packages&quot; column. </p>
+<ul>
+<li>If the Team has members, this value will be the current Package Count. Clicking
+this value will bring you to the Packages tab for this team.</li>
+<li>If the Team does not have any package access, this value will read &quot;add packages&quot;.
+Clicking this value will bring you to the Manage Package Access page.</li>
+</ul>
+<p>You can also navigate to your Team page directly by point your browser at
+<code>https://www.npmjs.com/org/&lt;org_name&gt;/teams/&lt;team_name&gt;</code>.</p>
+<p>From there, click the &quot;Packages&quot; tab. You&apos;ll use this interface to manage the
+package access of your Team.</p>
+<h2 id="adding-package-access-to-a-team"><a name="adding-package-access-to-a-team" class="plugin-anchor" href="#adding-package-access-to-a-team"><i class="fa fa-link" aria-hidden="true"></i></a>Adding Package Access to a Team</h2>
+<h2 id="removing-package-access-from-a-team"><a name="removing-package-access-from-a-team" class="plugin-anchor" href="#removing-package-access-from-a-team"><i class="fa fa-link" aria-hidden="true"></i></a>Removing Package Access from a Team</h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="configuring-npm-for-your-org.html" class="navigation navigation-prev " aria-label="Previous page: Configuring npm for your Org">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="migrating-a-user-account.html" class="navigation navigation-next " aria-label="Next page: Migrating a User Account">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Managing Package Access","level":"1.9","depth":1,"next":{"title":"Migrating a User Account","level":"1.10","depth":1,"path":"migrating-a-user-account.md","ref":"migrating-a-user-account.md","articles":[]},"previous":{"title":"Configuring npm for your Org","level":"1.8","depth":1,"path":"configuring-npm-for-your-org.md","ref":"configuring-npm-for-your-org.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"npm Orgs Documentation","gitbook":"*"},"file":{"path":"managing-package-access.md","mtime":"2017-03-21T01:30:07.445Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-21T01:31:13.910Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
