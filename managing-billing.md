@@ -59,7 +59,7 @@ cycle. ([Learn more about upgrading and downgrading your Org])
 
 ## Updating Your Billing Information
 
-To manage the members of your Organization, navigate to your Organizations landing
+To manage your Organization's billing, navigate to your Organizations landing
 page. You can find it at `https://www.npmjs.com/org/<org_name>`.
 
 Once you are on your Organization's landing page, click the "payment info" tab. You
@@ -74,9 +74,12 @@ The changes to your billing info should update and become effective immediately.
 - Your Organization's billing page is different from your personal billing page.
   They look very similar! Make sure that you are on the correct page before you
   change any information.
+- **Worried about an expired credit card?** If your card expires, your access 
+  will not be immediately revoked. There is a graceperiod that allows you to 
+  update your information.
 
 [Roles and Privileges doc]: roles-and-privileges.md
-[Learn more about upgrading and downgrading your Org]: upgrading-and-downgrading-your-org.md
+[Learn more about upgrading and downgrading your Org]: upgrading-and-downgrading.md
 [Learn more about managing members]: managing-members.md
 [contact npm support]: https://www.npmjs.com/support
 [Stripe]: https://stripe.com/
