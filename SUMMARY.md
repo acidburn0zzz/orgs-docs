@@ -10,4 +10,5 @@
 - [Managing Package Access](managing-package-access.md)
 - [Migrating a User Account](migrating-a-user-account.md)
 - [Managing Billing](managing-billing.md)
+- [Upgrading and Downgrading](upgrading-and-downgrading.md)
 - [Renaming and/or Deleting an Org](renaming-and-or-deleting-an-org.md)
