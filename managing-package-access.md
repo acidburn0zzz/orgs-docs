@@ -37,12 +37,32 @@ From this list, you can click the value in the "packages" column.
 You can also navigate to your Team page directly by point your browser at
 `https://www.npmjs.com/org/<org_name>/teams/<team_name>`.
 
-From there, click the "Packages" tab. You'll use this interface to manage the
+From there, click the "Teams" tab. You'll use this interface to manage the
 package access of your Team.
 
 ## Adding Package Access to a Team
 
+
+#### Using the CLI
+
+You can also use the CLI `access` command to add package acess to a team via
+the command line as follows:
+
+```
+npm access grant <read-only|read-write> <org:team> [<package>]
+```
+
 ## Removing Package Access from a Team
+
+
+#### Using the CLI
+
+You can also use the CLI `access` command to add package acess to a team via
+the command line as follows:
+
+```
+npm access revoke <org:team> [<package>]
+```
 
 [1]: managing-teams.md
 [2]: https://docs.npmjs.com/cli/access

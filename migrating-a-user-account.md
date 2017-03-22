@@ -9,8 +9,9 @@ the converted user's packages.
 
 ## What happens when I migrate?
 
-- All org status, team memberships, and package access that your previous
-user account had will be transfered to your new account.
+- All of your previous account's packages now belong to an org.
+- All of your previous team/org memberships and contirbutor access are assigned
+  to your new personal user account. 
 - You will no longer be able to sign in as the previous account name.
 - You will create a new npm user account.
 - Your old username will be used to create a new Organization of that name
