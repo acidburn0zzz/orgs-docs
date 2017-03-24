@@ -75,5 +75,5 @@ have any management privileges.
 [1]: renaming-and-or-deleting-an-org.md
 [Package access management]: managing-package-access.md
 [Member management]: managing-members.md
-[Team maangement]: managing-teams.md
+[Team management]: managing-teams.md
 [Billing management]: managing-billing.md
