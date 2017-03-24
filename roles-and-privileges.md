@@ -13,7 +13,7 @@ There are several types of management in an Organization:
 
 - [Billing management]
 - [Member management]
-- [Team maangement]
+- [Team management]
 - [Package access management]
 
 There are three (3) roles in an Organization:
@@ -35,7 +35,7 @@ There are three (3) roles in an Organization:
 
 The user who creates the Organization is automatically set up as an Owner.
 An Owner is the highest level of privilege in the Organization and can
-manage any and all aspects of the Organization..
+manage any and all aspects of the Organization.
 
 An Owner is the **only Role** that can:
 
@@ -65,7 +65,7 @@ An Admin can:
 - Manage **Team** package access
 
 If an Admin would like to add an npm user to their team, they will need
-to ask and Owner to first add that user as a member of the Organization.
+to ask an Owner to first add that user as a member of the Organization.
 
 ## Member
 
