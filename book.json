@@ -3,5 +3,10 @@
     "readme": "INTRO.md"
   },
   "title": "npm Orgs Documentation",
-  "plugins" : [ "anchors" ]
+  "plugins" : [ "anchors", "github" ],
+  "pluginsConfig" : {
+    "github": {
+      "url": "https://github.com/npm/orgs-docs"
+    }
+  }
 }
