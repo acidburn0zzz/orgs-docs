@@ -37,7 +37,7 @@ simply *possible*, to manage access and visibility of packages across
 a large team of contributors.
 
 When using Orgs, you organize your developers into Teams. You can then
-grant team permissions (read/write) to pacakges you govern, which then
+grant team permissions (read/write) to packages you govern, which then
 cascades to all members of that team. By doing this, you can have certain
 teams that develop a package (write access) and then some teams that can use
 that package (read access). You can do this for all of the packages that
