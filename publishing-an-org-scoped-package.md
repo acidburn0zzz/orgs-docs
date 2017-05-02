@@ -9,7 +9,7 @@ multiple users.
 
 This page will teach you how to publish an Organization scoped package,
 both publicly and privately. This page will also teach you how to
-configure you npm so that it automatically creates packages with your
+configure your npm so that it automatically creates packages with your
 Organization scope.
 
 Don't forget that all Members of an Organization are immediately added
