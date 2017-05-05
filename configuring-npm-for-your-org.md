@@ -17,7 +17,7 @@ help installing npm, check out this [doc][1].
 ## Configuring npm for Your Scope
 
 If you intend on publishing packages with your Organization scope more
-often that not, you may want to add your Organization scope to your
+often than not, you may want to add your Organization scope to your
 global `.npmrc` file. [Learn more about the `.npmrc` file].
 
 To set your Organization scope globally for your instance of the npm
