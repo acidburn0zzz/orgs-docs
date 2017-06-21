@@ -1,7 +1,7 @@
 # Getting Started
 
 npm Organizations are a great way to [manage access to packages], particularly
-if you are collaborating 3 or more people. This page will teach you how to
+if you are collaborating with 3 or more people. This page will teach you how to
 navigate the web interface to create an npm Organization.
 
 <hr/>
@@ -23,7 +23,7 @@ If you are already logged in, you can also go directly to
 
 ## 3. Name Your Organization and Choose Your Plan
 
-Give your Organization a name! Choose wisely as changing your Organization
+Give your Organization a name! Choose wisely, as changing your Organization
 is complicated and requires [contacting npm Support]. 
 [Learn more about renaming and/or deleting your Organization].
 
@@ -34,15 +34,15 @@ Want to use your current user scope as an Organization scope?
 Once you've named your Organization, you'll need to choose a plan.
 Currently, npm offers 2 plans:
 
-  - **free**: public packages only
-  - **paid**: install and publish **private packages** ($7/user/month)
+  - **Free**: public packages only.
+  - **Paid**: install and publish **private packages** ($7/user/month).
 
 For example, if you have 3 users, an Organization that only needs public 
 packages will be entirely free. However, if your Organization needs to
 install and publish **private packages**, it will cost $21/month 
 ($7/month*3 users).
 
-**You can change your plan at anytime through the billing panel.** For
+**You can change your plan any time through the billing panel.** For
 more information on the features of each plan, visit our [pricing page].
 
 Once you have chosen your plan, click the big red "Create an Organization"
@@ -50,7 +50,7 @@ button.
 
 ## 4. Enter Payment Information (paid Orgs only)
 
-If you chose an Organization with access to Private Packages, clicking the
+If you chose an Organization with access to private packages, clicking the
 big red "Create an Organization" button will bring up a Stripe Payments
 prompt. Enter the email address you'd like associated with billing (this
 does *not* have to match the owner's email), as well as billing address
@@ -74,11 +74,11 @@ The user who created the Organization is:
 - Automatically assigned the **role** of **Owner**. 
   [Learn more about Roles and Privileges].
 - Automatically added to a **team** called **Developers**. 
-  [Learn more about the Developers Team].
+  [Learn more about the Developers team].
 
 To add users to your Organization, enter their npm username into the text
 input and click the red button that says "Invite". If you chose an
-Organization with Private Package access, every user will add an 
+Organization with private package access, every user will add an 
 additional $7/month to your bill.
 
 **When you add a member to your Organization they are immediately added. They
@@ -87,12 +87,12 @@ them.**
 
 All the users you add from this interface are:
 
-- Automatically assigned the **role** of **Member**.
+- Automatically assigned the **role** of **Member**
   [Learn more about Roles and Privileges].
-- Automatically added to a **team** called **Developers**.
+- Automatically added to a **team** called **Developers**
   [Learn more about the Developers Team].
 
-If the person you would  like to add to your Organization does not have an
+If the person you would like to add to your Organization does not have an
 npm username, they'll need to create an npm user account. You can send them
 [this link][1] to sign up.
 

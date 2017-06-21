@@ -2,15 +2,15 @@
 
 You may already have an npm user account that you would now like to use
 as an Organization. This page will teach you how to convert an npm user
-account to an Organization and explain what to expect to happen to
+account to an Organization and explain what will happen to
 the converted user's packages.
 
 <hr/>
 
-## What happens when I migrate?
+## What Happens When I Migrate?
 
-- All of your previous account's packages now belong to an org.
-- All of your previous team/org memberships and contirbutor access are assigned
+- All of your previous account's packages now belong to the Org.
+- All of your previous team/Org memberships and contirbutor access are assigned
   to your new personal user account. 
 - You will no longer be able to sign in as the previous account name.
 - You will create a new npm user account.
@@ -23,7 +23,7 @@ the converted user's packages.
 When and if you choose to migrate your npm user account to an Organization,
 you will need to take the following steps:
 
-### 1. Login to your npm Account
+### 1. Login to Your npm Account
 
 Login as the npm user that you would like to convert to an Organization.
 Click the "create an organization" link on your user profile.
@@ -44,24 +44,24 @@ Look at the left hand column. Click the "Upgrade" button.
 Since you are converting your current user account to an Organization, you'll
 need to create a new one to replace it.
 
-After clicking upgrade, you should be on a screen where you will create a new
+After clicking "Upgrade", you should be on a screen where you will create a new
 npm user account. Enter the new username you would like to use for your personal
 account. 
 
-### 4. Choose your plan
+### 4. Choose Your Plan
 
 Once you've chosen a name for your new personal account, you'll need to choose
 a plan for your new Organization. Currently, npm offers 2 plans:
 
-  - **free**: public packages only
-  - **paid**: install and publish **private packages** ($7/user/month)
+  - **Free**: public packages only.
+  - **Paid**: install and publish **private packages** ($7/user/month).
 
 For example, if you have 3 users, an Organization that only needs public 
 packages will be entirely free. However, if your Organization needs to
 install and publish **private packages**, it will cost $21/month 
 ($7/month*3 users).
 
-**You can change your plan at anytime through the billing panel.** For
+**You can change your plan any time through the billing panel.** For
 more information on the features of each plan, visit our [pricing page].
 
 Once you have chosen your plan, click the big red "Create an Organization"
@@ -69,7 +69,7 @@ button.
 
 ### 5. Enter Payment Information (paid Orgs only)
 
-If you chose an Organization with access to Private Packages, clicking the
+If you chose an Organization with access to private packages, clicking the
 big red "Create an Organization" button will bring up a Stripe Payments
 prompt. Enter the email address you'd like associated with billing (this
 does *not* have to match the owner's email), as well as billing address
@@ -84,7 +84,7 @@ account of the person creating the Organization.
 
 ### 6. Add Members to your Organization
 
-Now that you've created your Organization, you are given the ability to add
+Once you've created your Organization, you are given the ability to add
 members. You can add members to your Organization at any time, so feel free
 to skip this step if you aren't ready to add users yet.
 
@@ -97,7 +97,7 @@ The user who created the Organization is:
 
 To add users to your Organization, enter their npm username into the text
 input and click the red button that says "Invite". If you chose an
-Organization with Private Package access, every user will add an 
+Organization with private package access, every user will add an 
 additional $7/month to your bill.
 
 **When you add a member to your Organization they are immediately added. They
@@ -106,12 +106,12 @@ them.**
 
 All the users you add from this interface are:
 
-- Automatically assigned the **role** of **Member**.
+- Automatically assigned the **role** of **member**.
   [Learn more about Roles and Privileges].
 - Automatically added to a **team** called **Developers**.
   [Learn more about the Developers Team].
 
-If the person you would  like to add to your Organization does not have an
+If the person you would like to add to your Organization does not have an
 npm username, they'll need to create an npm user account. You can send them
 [this link][1] to sign up.
 

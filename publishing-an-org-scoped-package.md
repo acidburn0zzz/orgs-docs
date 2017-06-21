@@ -3,7 +3,7 @@
 One of the great benefits of using an Organization is that you can
 publish packages, publicly or privately, under a shared namespace,
 called the **Organization scope**. This is similar to a user 
-namespace, or **User scope**, however an Organization scope makes
+namespace, or **user scope**, however an Organization scope makes
 it much easier to manage package access for multiple packages and
 multiple users.
 
@@ -12,10 +12,10 @@ both publicly and privately. This page will also teach you how to
 configure your npm so that it automatically creates packages with your
 Organization scope.
 
-Don't forget that all Members of an Organization are immediately added
-to a Developers team that automatically has Read/Write access to all
+Don't forget that all members of an Organization are immediately added
+to a Developers team that automatically has read/write access to all
 packages published under an Organization scope. 
-([Learn more about the Developers Team])
+([Learn more about the Developers team])
 
 <hr/>
 

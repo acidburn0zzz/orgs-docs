@@ -3,11 +3,11 @@
 The npm CLI is configurable! [Learn more about configuring npm].
 
 This page will teach you how to configure your npm for your 
-Organization's scope and plan. Specifically, it will show you how:
+Organization's scope and plan. Specifically, it will show you:
 
-- to make all new packages default to your Organization's scope 
-- to make all new packages have a default access, either public or 
-  private
+- How to make all new packages default to your Organization's scope. 
+- How to make all new packages have a default access, either public or 
+  private.
 
 In order to configure your npm, you'll need npm installed. If you need
 help installing npm, check out this [doc][1].
@@ -27,7 +27,7 @@ CLI, use this command:
 npm config set scope <org_scope> --global
 ```
 
-If you'd like to do it just for a single package, remove the `--global`
+If you'd like to do it for a single package, remove the `--global`
 flag. [Learn more about the CLI `config` command].
 
 Once you issue this command, all packages that you create with 
