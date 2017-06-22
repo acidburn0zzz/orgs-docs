@@ -3,7 +3,7 @@
 This page will explain how npm bills for npm Organizations and will teach
 you how to manage your billing informaton.
 
-You will need to have the owner role to perform this work. For more information on
+You will need to have the Owner role to perform this work. For more information on
 roles, check out the [Roles and Privileges doc].
 
 <hr/>
@@ -38,7 +38,7 @@ Newly added members to an Organization are always billed during the next billing
 cycle. Let's look at an example:
 
 - A new Organization is created on March 22.
-- The current bill is $7 as there is only one user, the owner and creator.
+- The current bill is $7 as there is only one user: the Owner/creator.
 - The owner waits a few days and decides to add two more Members.
 
 In this situation, billing would happen as follows:

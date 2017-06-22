@@ -18,7 +18,7 @@ can also just point your browser at `https://www.npmjs.com/scope/<org_name>/bill
 ## Upgrading From a Free Org to a Paid Org
 
 If you currently have a free Organization, but would like to add the ability to
-install and publish private pacakges, you'll want to upgrade your Organization.
+install and publish private packages, you'll want to upgrade your Organization.
 
 Not sure if you want to upgrade? ([Learn more about the plans we offer]).
 
@@ -37,7 +37,7 @@ If you run into any trouble with this process, you should [contact npm support].
 
 ## Downgrading to a Free Org from a Paid Org
 
-If you currently have an Organization with a Private Packages plan but no longer
+If you currently have an Organization with a private packages plan but no longer
 want the plan, you can Downgrade Your Account.
 
 Not sure if you want to downgrade? ([Learn more about the plans we offer]).

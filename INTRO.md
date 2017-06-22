@@ -11,10 +11,10 @@ large numbers of contributors over a set of many packages.
 
 ## Organizing Packages
 
-Creating an Organization on npm gives you an Oganization scope under
+Creating an Organization on npm gives you an Organization scope under
 which you can have your own namespace for packages. The Organization
 scope is the name of the Organization as registered on npm. For
-example, if your Organization is called "the best", you would register
+example, if your organization is called "the best", you would register
 as "the-best" and get a scope, `@the-best`. From there, you could name
 your packages whatever you want (according to our guidelines).
 
@@ -38,7 +38,7 @@ a large team of contributors.
 
 When using Orgs, you organize your developers into teams. You can then
 grant team permissions (read/write) to packages you govern, which then
-cascades to all members of that team. By doing this, you can have certain
+cascades to all Members of that team. By doing this, you can have certain
 teams that develop a package (write access) and then some teams that can use
 that package (read access). You can do this for all of the packages that
 the Organization governs, public unscoped packages and public/private

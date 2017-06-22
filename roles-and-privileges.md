@@ -34,10 +34,10 @@ There are three (3) roles in an Organization:
 ## Owner
 
 The user who creates the Organization is automatically set up as an owner.
-An owner is the highest level of privilege in the Organization and can
+An Owner is the highest level of privilege in the Organization and can
 manage any and all aspects of the Organization.
 
-An owner is the **only role** that can:
+An Owner is the **only role** that can:
 
 - Manage billing.
 - Add/remove any **member** to/from the Org.
@@ -49,22 +49,22 @@ They can also:
 - Add/remove any **member** from any **team**.
 - Manage **team** package access.
 
-**You cannot remove the last owner from an Organization.** (This would
+**You cannot remove the last Owner from an Organization.** (This would
 render the Organization inaccessible. If you are trying to delete your
 Organization, you can learn more [here][1].)
 
 ## Admin
 
-An admin is a team leader. This is the second highest level of privilege.
+An Admin is a team leader. This is the second highest level of privilege.
 Admin privileges allow a user to manage teams and package access.
 
-An admin can:
+An Admin can:
 
 - Create/delete **teams**.
 - Add/remove any **member** from any **team**.
 - Manage **team** package access.
 
-If an admin would like to add an npm user to their team, they will need
+If an Admin would like to add an npm user to their team, they will need
 to ask an Owner to first add that user as a member of the Organization.
 
 ## Member
