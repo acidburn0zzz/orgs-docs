@@ -4,7 +4,7 @@ This page will teach you how to upgrade and downgrade your Organization's plan. 
 will also explain the implications of these actions for your package access and
 billing. 
 
-You will need to have the owner role to perform this work. For more information on
+You will need to have the Owner role to perform this work. For more information on
 roles, check out the [Roles and Privileges doc].
 
 <hr/>
@@ -22,7 +22,7 @@ install and publish private packages, you'll want to upgrade your Organization.
 
 Not sure if you want to upgrade? ([Learn more about the plans we offer]).
 
-To upgrade your organization, locate the "Upgrade" panel on the "payment info" tab
+To upgrade your Organization, locate the "Upgrade" panel on the "payment info" tab
 for your Organization. This panel will tell you how much your monthly bill will be
 if you upgrade your Organization. ([Learn more about managing billing]).
 
@@ -42,7 +42,7 @@ want the plan, you can Downgrade Your Account.
 
 Not sure if you want to downgrade? ([Learn more about the plans we offer]).
 
-To downgrade your organization, locate the "Downgrade" panel on the "payment info"
+To downgrade your Organization, locate the "Downgrade" panel on the "payment info"
 tab for your Organization. This panel will let you know when your publish/install
 access to your Private Packages will end. This usually coincides with the day your
 next billing period would have begun.
