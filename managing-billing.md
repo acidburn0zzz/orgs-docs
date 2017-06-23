@@ -66,7 +66,7 @@ Once you are on your Organization's landing page, click the "payment info" tab. 
 can also just point your browser at `https://www.npmjs.com/scope/<org_name>/billing`.
 
 From this tab, locate the "Payment Info" panel and click the "Edit Payment Info" 
-button and enter your new information. npm uses [Stripe](https://stripe.com) to manage its billing.
+button and enter your new information. npm uses [Stripe] to manage its billing.
 The changes to your billing info should update and become effective immediately.  
 
 #### Notes
@@ -82,3 +82,4 @@ The changes to your billing info should update and become effective immediately.
 [Learn more about upgrading and downgrading your Org]: upgrading-and-downgrading.md
 [Learn more about managing members]: managing-members.md
 [contact npm support]: https://www.npmjs.com/support
+[Stripe]: https://stripe.com/
