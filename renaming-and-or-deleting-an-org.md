@@ -13,13 +13,13 @@ CLI interface.
 Currently, to functionally "rename" an Organization, the following
 needs to happen:
 
-- Create a new Organization with the name you want
-- Re-setup Billing
-- Re-add Members
-- Re-create Teams
-- Re-assign Package Access
+- Create a new Organization with the name you want.
+- Re-setup billing.
+- Re-add members.
+- Re-create teams.
+- Re-assign package access.
 
-If you find yourself in this situation, an Organization Owner should
+If you find yourself in this situation, the Organization Owner should
 [contact npm Support] as they have tools to help you migrate your existing
 Organization setup.
 
@@ -28,7 +28,7 @@ Organization setup.
 There is currently no way to delete your Organization from the web or
 CLI interface.
 
-To delete your Organization, an Organization Owner should
+To delete your Organization, the Organization Owner should
 [contact npm support].
 
 [contact npm support]: https://www.npmjs.com/support
