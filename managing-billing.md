@@ -39,7 +39,7 @@ cycle. Let's look at an example:
 
 - A new Organization is created on March 22.
 - The current bill is $7 as there is only one user: the Owner/creator.
-- The owner waits a few days and decides to add two more Members.
+- The Owner waits a few days and decides to add two more Members.
 
 In this situation, billing would happen as follows:
 

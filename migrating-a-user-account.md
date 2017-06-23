@@ -72,7 +72,7 @@ button.
 If you chose an Organization with access to private packages, clicking the
 big red "Create an Organization" button will bring up a Stripe Payments
 prompt. Enter the email address you'd like associated with billing (this
-does *not* have to match the owner's email), as well as billing address
+does *not* have to match the Owner's email), as well as billing address
 and credit card information.
 
 **You can change your billing info at anytime through your Organization's

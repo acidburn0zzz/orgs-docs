@@ -18,7 +18,7 @@ Learn more about `npm access` [here][2].
 If you are looking for how to manage a team's membership, check
 out [this doc][1].
 
-You will need to have the **owner** or **admin** role to perform this
+You will need to have the **Owner** or **Admin** role to perform this
 work. For more information on **roles**, check out the 
 [Roles and Privileges doc].
 
