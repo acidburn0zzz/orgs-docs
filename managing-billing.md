@@ -28,7 +28,7 @@ you seven (7) dollars a month per user. **The $7 charge is a flat fee for any me
 of the Organization regardless of their Package Access.**
 ([Learn more about managing members]).
 
-You can caluclate your monthly bill as follows:
+You can calculate your monthly bill as follows:
 
 ```
 number of users * 7
