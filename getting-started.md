@@ -1,35 +1,38 @@
 # Getting Started
 
-npm Organizations are a great way to [manage access to packages], particularly
-if you are collaborating with 3 or more people. This page will teach you how to
-navigate the web interface to create an npm Organization.
+To easily collaborate with other developers, use npm Organizations. This page will teach you how to create an account using npm, then navigate npm's web interface to create an Organization.
 
-<hr/>
+First, [create a new npm account](https://docs.npmjs.com/getting-started/installing-node). 
 
+You might want to [develop your profile settings](https://docs.npmjs.com/getting-started/modifying_your_profile_from_command_line) as well but you can create your org first if you prefer. 
 
-## 1. Sign up for an npm Account and Log In
+## 1. Create an Org
 
-To create an Organization, you need to login to the [npm website]. Don't have
-an npm user account? No problem, you can sign up for one [here][1].
+Choose `Create an Organization` from your avatar menu. Or, you can just click [the create website].
 
-## 2. Create an Organization
+![createmenu](choosing-create-org-from-menu.png)
 
-Once you are logged in, navigate to your profile page. From there, you
-should see three (3) links under the "Your Account" heading. Click
-"create an organization".
+Enter a name for your organization, then choose a plan:
 
-If you are already logged in, you can also go directly to
-[https://www.npmjs.com/org/create](https://www.npmjs.com/org/create).
+![new-org](create-org.png)
 
-## 3. Name Your Organization and Choose Your Plan
-
-Give your Organization a name! Choose wisely, as changing your Organization
-is complicated and requires [contacting npm Support]. 
+### Naming your Organization
+Please take your time to choose this name. Choose wisely, as changing your Organization name is complicated and requires [contacting npm Support]. 
 [Learn more about renaming and/or deleting your Organization].
 
-*Would you like to convert your current user account to an Organization?
-Want to use your current user scope as an Organization scope?
-[Learn more about migrating a user account].*
+#### Converting a username to an Org name
+
+If you like your username, and wish you could use that for an Org name, there is a way to do this. If you convert your username to an organization name:
+
+* You will be able to pick a new username.
+
+* You will still have the same rights to packages that you did before.
+
+* We recommend you choose a version of the original username so that collaborators will recognize you. For example, if you converted your username _aussiedogfetch_ to an Org name, you might name your new username _aussiedogfetch-user_. 
+
+If you want to take this step, click the note reading "Want to convert _yourusername_ to an Organization" to get started. 
+
+### Choosing a Plan 
 
 Once you've named your Organization, you'll need to choose a plan.
 Currently, npm offers 2 plans:
@@ -42,32 +45,37 @@ packages will be entirely free. However, if your Organization needs to
 install and publish **private packages**, it will cost $21/month 
 ($7/month*3 users).
 
-**You can change your plan any time through the billing panel.** For
-more information on the features of each plan, visit our [pricing page].
+**You can change your plan any time through the billing panel.** 
 
-Once you have chosen your plan, click the big red "Create an Organization"
+For more information on the features of each plan, visit our [pricing page].
+
+Once you have chosen your plan, click the green "Create an Org"
 button.
 
-## 4. Enter Payment Information (paid Orgs only)
+## 2a. Enter Payment Information (paid Orgs only)
 
 If you chose an Organization with access to private packages, clicking the
-big red "Create an Organization" button will bring up a Stripe Payments
-prompt. Enter the email address you'd like associated with billing (this
-does *not* have to match the owner's email), as well as billing address
-and credit card information.
+green "Create an Org" button will bring up a Stripe Payments
+prompt. 
 
-**You can change your billing info at anytime through your Organization's
-billing page.**
+![creditcardaddress](credit-card-address.png)
+
+After you enter a name and address, you'll see a credit card entry screen. Please enter the appropriate credit card information, note the total shown in the blue button, and press Pay to continue.
 
 Your credit card will be immediately billed $7 for a single user, the
-account of the person creating the Organization. 
+account of the person creating the Organization.
 
+## 3. Explore your new Org page
 
-## 5. Add Members to your Organization
+After you press the green "Create an Org button" if it's an unpaid Org, or after you press the blue Pay button, if it's a paid Org, you will see the new page for your org:
 
-Now that you've created your Organization, you are given the ability to add
-members. You can add members to your Organization at any time, so feel free
-to skip this step if you aren't ready to add users yet.
+![neworgpaidscreen](new-paid-org.png)
+
+You can now add new members. 
+
+## 4. Add Members to your Organization 
+
+Now that you've created your Organization, you can immediately begin adding members. You can add members to your Organization at any time, so feel free to skip this step if you aren't ready to add users yet. These steps are explained in more detail later in this documentation.  
 
 The user who created the Organization is:
 
@@ -76,14 +84,18 @@ The user who created the Organization is:
 - Automatically added to a **team** called **Developers**. 
   [Learn more about the Developers team].
 
-To add users to your Organization, enter their npm username into the text
-input and click the red button that says "Invite". If you chose an
-Organization with private package access, every user will add an 
-additional $7/month to your bill.
+To add users to your Organization: 
 
-**When you add a member to your Organization they are immediately added. They
-do not receive an email, so please let your new members know that you have added
-them.**
+![invite](member-admin-owner-invite.png)
+
+1. Enter their npm username into the text box.
+2. Click the member, admin, or owner box.
+3. Click the green Invite button.
+4. The new member will appear in the Members list. 
+
+If you chose an Organization with private package access, every user will add an additional $7/month to your bill.
+
+**When you add a member to your Organization they are immediately added. They do not receive an email, so please let your new members know that you have added them.**
 
 All the users you add from this interface are:
 
@@ -93,9 +105,18 @@ All the users you add from this interface are:
   [Learn more about the Developers Team].
 
 If the person you would like to add to your Organization does not have an
-npm username, they'll need to create an npm user account. You can send them
-[this link][1] to sign up.
+npm username, they'll need to create an npm user account. You can send them [this link][1] to sign up.
 
+## 5. More about Billing Information (paid Orgs only)
+
+Choose Billing Info from your Avatar menu to set billing information. For example, you might want billing emails to go to a different email than the one associated with your username. (This email does *not* have to match the owner's email). Your first bill date will be one month from the date you set up your Org. 
+
+![billsummary](bill-summary.png)
+
+**You can change your billing info at anytime through your Organization's
+billing page.**
+
+[the create website]: https://www.npmjs.com/org/create
 [npm website]: https://www.npmjs.com
 [pricing page]: https://www.npmjs.com/pricing
 [contacting npm Support]: https://www.npmjs.com//support
@@ -105,3 +126,4 @@ npm username, they'll need to create an npm user account. You can send them
 [Learn more about renaming and/or deleting your Organization]: renaming-and-or-deleting-an-org.md 
 [1]: https://www.npmjs.com/signup
 
+# 
