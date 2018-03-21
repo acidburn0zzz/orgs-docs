@@ -3,7 +3,7 @@
 The key to managing package access in an Organization is teams.
 **Teams are sets of Organization members that have defined privileges
 for a set of packages that are controlled by the Organization**.
-This page will teach you how to create and manage the 
+This page will teach you how to create and manage the
 membership of your Organization's team from the web interface.
 
 If you would like to manage the package access of your team from
@@ -19,28 +19,28 @@ If you are looking for how to manage a team's membership, check
 out [this doc][1].
 
 You will need to have the **Owner** or **Admin** role to perform this
-work. For more information on **roles**, check out the 
+work. For more information on **roles**, check out the
 [Roles and Privileges doc].
 
 <hr/>
 
 To manage the package access of a team:
 
-1.  Using the Avatar menu, click your user name to display your home page. 
+* Using the Avatar menu, click your user name to display your home page.
 
-2. Click `Organizations` on the tab that appears. 
+* Click `Organizations` on the tab that appears.
 
 <div style="text-align: center;"><img src="haggis-one.png" style="border: 1px solid gray;"></div>
 
-3. Choose teams from the top arrow:
+* Choose teams from the top arrow:
 
 <div style="text-align: center;"><img src="choose-teams-top-tab-arrow.png" style="border: 1px solid gray;"></div>
 
-4. Click the gray Packages menu for the appropriate team. 
+* Click the gray Packages menu for the appropriate team.
 
 <div style="text-align: center;"><img src="click-packages.png" style="border: 1px solid gray;"></div>
- 
-5. From this list, click Add Package to add a package:
+
+* From this list, click Add Package to add a package:
 
 <div style="text-align: center;"><img src="orgs-add-package-button.png" style="border: 1px solid gray;"></div>
 
@@ -48,7 +48,7 @@ To manage the package access of a team:
 
 #### Adding Access to a Team Using the Web
 
-From the team page, click the `read` or `read/write` buttons on the row with the package name to give the team corresponding access to a package. 
+From the team page, click the `read` or `read/write` buttons on the row with the package name to give the team corresponding access to a package.
 
 <div style="text-align: center;"><img src="control-access-packages.png" style="border: 1px solid gray;"></div>
 
