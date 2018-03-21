@@ -26,23 +26,23 @@ work. For more information on **roles**, check out the
 
 To manage the package access of a team:
 
-* Using the Avatar menu, click your user name to display your home page.
+1. Using the Avatar menu, click your user name to display your home page.
 
-* Click `Organizations` on the tab that appears.
+2. Click `Organizations` on the tab that appears.
 
-<div style="text-align: center;"><img src="haggis-one.png" style="border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="haggis-one.png" style="border: 1px solid gray;"></div>
 
-* Choose teams from the top arrow:
+3. Choose teams from the top arrow:
 
-<div style="text-align: center;"><img src="choose-teams-top-tab-arrow.png" style="border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="choose-teams-top-tab-arrow.png" style="border: 1px solid gray;"></div>
 
-* Click the gray Packages menu for the appropriate team.
+4. Click the gray Packages menu for the appropriate team.
 
-<div style="text-align: center;"><img src="click-packages.png" style="border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="click-packages.png" style="border: 1px solid gray;"></div>
 
-* From this list, click Add Package to add a package:
+5. From this list, click Add Package to add a package:
 
-<div style="text-align: center;"><img src="orgs-add-package-button.png" style="border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="orgs-add-package-button.png" style="border: 1px solid gray;"></div>
 
 ## Controlling Access to Packages
 

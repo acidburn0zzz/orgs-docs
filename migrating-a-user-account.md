@@ -9,7 +9,7 @@ You may already have come up with a great name for an npm user account. Now, you
 
 - All of your previous account's packages now belong to the Org.
 - All of your previous team/Org memberships and contirbutor access are assigned
-  to your new personal user account. 
+  to your new personal user account.
 - You will no longer be able to sign in as the previous account name.
 - You will create a new npm user account.
 - Your old username will be used to create a new Organization of that name
@@ -24,13 +24,13 @@ you will need to take the following steps:
 ### 1. Login to Your npm Account
 
 1. Login as the npm user that you would like to convert to an Organization.
-1. Choose `Create a New Organization` from the avatar menu.
+2. Choose `Create a New Organization` from the avatar menu.
 
-<div style="text-align: center;"><img src="convert-username.png" style="border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="convert-username.png" style="border: 1px solid gray;"></div>
 
-2. Press the `Convert` button highlighted in the screen shot.  
+3. Press the `Convert` button highlighted in the screen shot.  
 
-Review the issues listed to be certain you wish to go forward. 
+Review the issues listed to be certain you wish to go forward.
 
 <div style="text-align: center;"><img src="there-be-dragons.png" style="border: 1px solid gray;"></div>
 
@@ -45,7 +45,7 @@ Click `Submit`.
 ### 3. Choose Your Plan
 
 Once you've chosen a name for your new personal account, you'll need to choose
-a plan for your new Organization. 
+a plan for your new Organization.
 
 <div style="text-align: center;"><img src="org-prompts-to-select-plan-after-converting-name.png" style="border: 1px solid gray;"></div>
 
@@ -73,9 +73,9 @@ and credit card information.
 billing page.**
 
 Your credit card will be immediately billed $7 for a single user, the
-account of the person creating the Organization. 
+account of the person creating the Organization.
 
-More details and screen shots about billing are in a later chapter. 
+More details and screen shots about billing are in a later chapter.
 
 ### 5. Add Members to your Organization
 
@@ -85,9 +85,9 @@ Once you've created your Organization, you can view your organization, so that y
 
 The user who created the Organization is:
 
-- Automatically assigned the **role** of **Owner**. 
+- Automatically assigned the **role** of **Owner**.
   [Learn more about Roles and Privileges].
-- Automatically added to a **team** called **Developers**. 
+- Automatically added to a **team** called **Developers**.
   [Learn more about the Developers Team].
 
 To add users to your Organization, follow the screen cues.  If you chose an Organization with private package access, every user will add an additional $7/month to your bill.

@@ -60,21 +60,24 @@ cycle. ([Learn more about upgrading and downgrading your Org])
 ## Updating Your Billing Information
 
 
-1. To manage your Organization's billing, open the Avatar menu, then click your username. 
+1. To manage your Organization's billing, open the Avatar menu, then click your username.
 
-2. Click the Organizations tab. 
+2. Click the Organizations tab.
 
-3.  Choose the Organization you wish to review from the left menu. 
+3.  Choose the Organization you wish to review from the left menu.
 
-<div style="text-align: center;"><img src="choose-org-left-menu.png" border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="choose-org-left-menu.png" border: 1px solid gray;"></div>
+     <br />
 
 3. Click the Billing tab to see current billing information.
 
-<div style="text-align: center;"><img src="choose-org-billing-tab.png"border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="choose-org-billing-tab.png"border: 1px solid gray;"></div>
+     <br />
 
-4. The Org's billing information appears. 
+4. The Org's billing information appears.
 
-<div style="text-align: center;"><img src="orgs-paid-billing-page.png"border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="orgs-paid-billing-page.png"border: 1px solid gray;"></div>
+     <br />
 
 From this tab, you can find all the information you need to work with billing. For more screen shots about how to enter credit card information, please see the next chapter, _Upgrading and Downgrading_.
 

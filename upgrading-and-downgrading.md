@@ -28,11 +28,11 @@ To upgrade your Organization:
 
 1. Choose Billing Info from your avatar menu:
 
-<div style="text-align: center;"><img src="billing-info-from-menu.png" style="border: 1px solid gray;"></div>
+     <div style="text-align: center;"><img src="billing-info-from-menu.png" style="border: 1px solid gray;"></div>
 
- 2. Click the green `upgrade plan` button:
+2. Click the green `upgrade plan` button:
 
-![UpgradeBilling](billing-info-upgrade.png)
+     ![UpgradeBilling](billing-info-upgrade.png)
 
 The next screen will confirm your choice, displaying the monthly cost calculated according to the current number of users that you have in your organization. In the screen shot, there will be 3 users, so the total is $21/month.
 
