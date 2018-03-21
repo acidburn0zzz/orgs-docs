@@ -1,7 +1,6 @@
 # Managing Members
 
-This page will explain how to manage **Members** of your Organization. It
-will also explain how to manage the **roles** of those Members.
+This page will explain how to manage **Members** of your Organization. It’ll also explain how to manage the **roles** of those Members.
 
 You will need to have the **Owner** role to perform this work. For more
 information on **roles**, check out the [Roles and Privileges doc].
