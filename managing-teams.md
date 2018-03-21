@@ -1,3 +1,8 @@
+<!--
+title: QA-ORGS-5 - Managing Teams
+featured: true
+-->
+
 # Managing Teams
 
 The key to managing package access in an Organization is teams.
@@ -5,6 +10,9 @@ The key to managing package access in an Organization is teams.
 for a set of packages that are controlled by the Organization**.
 This page will teach you how to create and manage the 
 Membership of your Organization's team from the web interface.
+
+
+## Managing Teams from the CLI
 
 If you would like to manage the Membership of your team from
 the npm command line interface (CLI), you can use:
@@ -34,15 +42,16 @@ You can also just point your browser at
 
 ## Creating a Team
 
+
 To create a team:
 
 1. Click the "Create a Team" button.
 2. Give your team a name. Your team name must be lower case and have no
   spaces or punctuation. Choose wisely! A team's name cannot be changed.
-3. Optionally, give your team a description.
-4. Optionally, add Organization Members to your team. You can always
-  add (or remove!) Members later, so feel free to skip this.
 5. Click the "make it so" button.
+
+<div style="text-align: center;"><img src="orgs-create-a-team.png" style="border: 1px solid gray;"></div>
+
 
 #### Notes
 
@@ -72,42 +81,35 @@ Membership of your team.
 
 ### Adding a Member to a Team
 
+Add members. As you type a name, possible choices will appear in the drop-down.
+
+<div style="text-align: center;"><img src="org-user-friendly.png" style="border: 1px solid gray;"></div>
+
+Click the Green `+Add-User` button when the username is complete.
+
+The new member will be listed with others on the team page. 
+<div style="text-align: center;"><img src="org-add-users1.png" style="border: 1px solid gray;"></div>
+
 To add a Member to a team:
 
-1. Enter the npm username of the user you would like to add to your team.
+1. Enter the npm username of the user you would like to add to your team. A drop-down will appear.
 2. Click the "add" button.
-3. Repeat this until you have added all the Members you would like to.
-4. Click "make it so" button.
-
-To save time, you can populate your team from an existing team. To populate
-your team from an existing team:
-
-1. Choose the team you would like to populate your new team from in the 
-  dropdown at the top of the page.
-2. When you release the dropdown, you should see the usernames of the Members
-  of that previously existing team appear in the list of users to be added to
-  your team.
+3. Repeat this until you have added all the Members you want.
+4. When you are done, click a button or select a tab item to go on to your next task.
 
 #### Notes
 
-- Adding a Organization Member to a team does not send them an email. Let
+- Adding a Member to a team does not send them an email. Let
   your new team Member know that you added them to a team!
-- You cannot add a user who is not a Member of your Organization to a team. 
-  Ask an Owner to invite them to the Organization so that you can add them to
-  a team. ([Learn more about managing Members]).
-- Organization Members cost $7/Member/month if the Organization has private
-  packages even if the teams the Member is a part of do not have access to
-  private packages. 
+- You cannot add a user who is not a Member of your Organization to a team. If you need to add a user who is not a member, ask an Owner to invite them to the Organization so that you can add them to a team. ([Learn more about managing Members]).
+- Organization Members cost $7/Member/month if the Organization has private packages, even if the teams the Member is a part of do not have access to private packages. 
 
 ### Removing a Member from a Team
 
 To remove a Member from a team:
 
 1. Locate the **Member** in the list of Members.
-2. Click the white X in the grey circle at the far right of the row.
-3. The page will refresh. You should see a message telling you the status of your
-   delete request. If your delete request was successful, you should no longer see
-   the Member you deleted in the list of Members.
+2. Hover over the X at the end of the row. It will turn red. Click the red X.
 
 #### Notes
 

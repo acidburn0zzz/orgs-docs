@@ -1,9 +1,7 @@
 # Migrating a User Account
 
-You may already have an npm user account that you would now like to use
-as an Organization. This page will teach you how to convert an npm user
-account to an Organization and explain what will happen to
-the converted user's packages.
+You may already have come up with a great name for an npm user account. Now, you want to use that name for an organization. This page will teach you how to convert an npm user account to an Organization and explain what will happen to the converted user's packages.
+
 
 <hr/>
 
@@ -25,49 +23,45 @@ you will need to take the following steps:
 
 ### 1. Login to Your npm Account
 
-Login as the npm user that you would like to convert to an Organization.
-Click the "create an organization" link on your user profile.
+1. Login as the npm user that you would like to convert to an Organization.
+1. Choose `Create a New Organization` from the avatar menu.
 
-### 2. Start the User2Orgs Workflow
+<div style="text-align: center;"><img src="convert-username.png" style="border: 1px solid gray;"></div>
 
-Once you are logged in, navigate to your profile page. From there, you
-should see three (3) links under the "Your Account" heading. Click
-"create an organization".
+2. Press the `Convert` button highlighted in the screen shot.  
 
-If you are already logged in, you can also go directly to
-[https://www.npmjs.com/org/create](https://www.npmjs.com/org/create).
+Review the issues listed to be certain you wish to go forward. 
 
-Look at the left hand column. Click the "Upgrade" button. 
+<div style="text-align: center;"><img src="there-be-dragons.png" style="border: 1px solid gray;"></div>
 
-### 3. Create a New Personal User
+### 2. Create a New Personal User
 
-Since you are converting your current user account to an Organization, you'll
-need to create a new one to replace it.
+Since you are converting your current user account to an Organization, you'll need to create a new one to replace it. Enter the new username you would like to use for your personal account. You will still be included in all the Orgs where you were included before, but your name will be changed to the new name you set now. We recommend you use a name similar to your prior name so that others will recognize you. For example, you can create a username like "_neworgname_-user".
 
-After clicking "Upgrade", you should be on a screen where you will create a new
-npm user account. Enter the new username you would like to use for your personal
-account. 
+<div style="text-align: center;"><img src="org-prompts-for-new-username.png" style="border: 1px solid gray;"></div>
 
-### 4. Choose Your Plan
+Click `Submit`.
+
+### 3. Choose Your Plan
 
 Once you've chosen a name for your new personal account, you'll need to choose
-a plan for your new Organization. Currently, npm offers 2 plans:
+a plan for your new Organization. 
+
+<div style="text-align: center;"><img src="org-prompts-to-select-plan-after-converting-name.png" style="border: 1px solid gray;"></div>
+
+Currently, npm offers 2 plans:
 
   - **Free**: public packages only.
   - **Paid**: install and publish **private packages** ($7/user/month).
 
-For example, if you have 3 users, an Organization that only needs public 
-packages will be entirely free. However, if your Organization needs to
-install and publish **private packages**, it will cost $21/month 
-($7/month*3 users).
+For example, if you have 3 users, an Organization that only needs public packages will be entirely free. However, if your Organization needs to
+install and publish **private packages**, it will cost $21/month ($7/month*3 users).
 
-**You can change your plan any time through the billing panel.** For
-more information on the features of each plan, visit our [pricing page].
+**You can change your plan any time through the billing panel.** For more information on the features of each plan, visit our [pricing page].
 
-Once you have chosen your plan, click the big red "Create an Organization"
-button.
+Once you have chosen your plan, follow screen clues to  create the organization.
 
-### 5. Enter Payment Information (paid Orgs only)
+### 4. Enter Payment Information (paid Orgs only)
 
 If you chose an Organization with access to private packages, clicking the
 big red "Create an Organization" button will bring up a Stripe Payments
@@ -81,12 +75,13 @@ billing page.**
 Your credit card will be immediately billed $7 for a single user, the
 account of the person creating the Organization. 
 
+More details and screen shots about billing are in a later chapter. 
 
-### 6. Add Members to your Organization
+### 5. Add Members to your Organization
 
-Once you've created your Organization, you are given the ability to add
-members. You can add members to your Organization at any time, so feel free
-to skip this step if you aren't ready to add users yet.
+_This step is described in more detail in an earlier chapter._
+
+Once you've created your Organization, you can view your organization, so that you can add more users, or manage your teams.  You can  add members to your Organization at any time, so feel free to skip this step if you aren't ready to add users yet.
 
 The user who created the Organization is:
 
@@ -95,13 +90,9 @@ The user who created the Organization is:
 - Automatically added to a **team** called **Developers**. 
   [Learn more about the Developers Team].
 
-To add users to your Organization, enter their npm username into the text
-input and click the red button that says "Invite". If you chose an
-Organization with private package access, every user will add an 
-additional $7/month to your bill.
+To add users to your Organization, follow the screen cues.  If you chose an Organization with private package access, every user will add an additional $7/month to your bill.
 
-**When you add a member to your Organization they are immediately added. They
-do not receive an email, so please let your new members know that you have added
+**When you add a member to your Organization they are immediately added. They do not receive an email, so please let your new members know that you have added
 them.**
 
 All the users you add from this interface are:

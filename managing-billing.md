@@ -59,24 +59,30 @@ cycle. ([Learn more about upgrading and downgrading your Org])
 
 ## Updating Your Billing Information
 
-To manage your Organization's billing, navigate to your Organizations landing
-page. You can find it at `https://www.npmjs.com/org/<org_name>`.
 
-Once you are on your Organization's landing page, click the "payment info" tab. You
-can also just point your browser at `https://www.npmjs.com/scope/<org_name>/billing`.
+1. To manage your Organization's billing, open the Avatar menu, then click your username. 
 
-From this tab, locate the "Payment Info" panel and click the "Edit Payment Info" 
-button and enter your new information. npm uses [Stripe] to manage its billing.
-The changes to your billing info should update and become effective immediately.  
+2. Click the Organizations tab. 
+
+3.  Choose the Organization you wish to review from the left menu. 
+
+<div style="text-align: center;"><img src="choose-org-left-menu.png" border: 1px solid gray;"></div>
+
+3. Click the Billing tab to see current billing information.
+
+<div style="text-align: center;"><img src="choose-org-billing-tab.png"border: 1px solid gray;"></div>
+
+4. The Org's billing information appears. 
+
+<div style="text-align: center;"><img src="orgs-paid-billing-page.png"border: 1px solid gray;"></div>
+
+From this tab, you can find all the information you need to work with billing. For more screen shots about how to enter credit card information, please see the next chapter, _Upgrading and Downgrading_.
 
 #### Notes
 
-- Your Organization's billing page is different from your personal billing page.
-  They look very similar! Make sure that you are on the correct page before you
-  change any information.
-- **Worried about an expired credit card?** If your card expires, your access 
-  will not be immediately revoked. There is a grace period that allows you to 
-  update your information.
+- **Your Organization's billing page is different from your personal billing page. They look very similar! Make sure that you are on the correct page before you change any information.**
+
+- **Worried about an expired credit card?** If your card expires, your access will not be immediately revoked. There is a grace period that allows you to update your information.
 
 [Roles and Privileges doc]: roles-and-privileges.md
 [Learn more about upgrading and downgrading your Org]: upgrading-and-downgrading.md

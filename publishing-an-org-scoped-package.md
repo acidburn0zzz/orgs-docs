@@ -70,5 +70,9 @@ You can doubly verify this by opening a private browser tab and
 viewing your npm profile or your Organization's profile. The package
 should be present on both package listings.
 
+How to add packages to teams
+
+Click the `Teams` tab to see all teams, including the developer team. Use the `Packages` or `Members` button to control the package and members in teams. 
+
 [Learn more about the Developers Team]: the-developers-team.md
 [Learn more about the CLI `publish` command]: https://docs.npmjs.com/cli/publish

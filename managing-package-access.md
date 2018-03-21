@@ -24,26 +24,35 @@ work. For more information on **roles**, check out the
 
 <hr/>
 
-To manage the package access of a team, navigate to your team's landing page.
-You can find a list of your teams at `https://www.npmjs.com/org/<org_name>/teams`.
+To manage the package access of a team:
 
-From this list, you can click the value in the "packages" column. 
+1.  Using the Avatar menu, click your user name to display your home page. 
 
-- If the team has access to packages, this value will be the current package count. Clicking
-  this value will bring you to the "Packages" tab for this team.
-- If the team does not have any package access, this value will read "add packages".
-  Clicking this value will bring you to the "Manage Package Access" page.
+2. Click `Organizations` on the tab that appears. 
 
-You can also navigate to your team page directly by pointing your browser at
-`https://www.npmjs.com/org/<org_name>/teams/<team_name>`.
+<div style="text-align: center;"><img src="haggis-one.png" style="border: 1px solid gray;"></div>
 
-From there, click the "Teams" tab. You'll use this interface to manage the
-package access of your team.
+3. Choose teams from the top arrow:
 
-## Adding Package Access to a Team
+<div style="text-align: center;"><img src="choose-teams-top-tab-arrow.png" style="border: 1px solid gray;"></div>
 
+4. Click the gray Packages menu for the appropriate team. 
 
-#### Using the CLI
+<div style="text-align: center;"><img src="click-packages.png" style="border: 1px solid gray;"></div>
+ 
+5. From this list, click Add Package to add a package:
+
+<div style="text-align: center;"><img src="orgs-add-package-button.png" style="border: 1px solid gray;"></div>
+
+## Controlling Access to Packages
+
+#### Adding Access to a Team Using the Web
+
+From the team page, click the `read` or `read/write` buttons on the row with the package name to give the team corresponding access to a package. 
+
+<div style="text-align: center;"><img src="control-access-packages.png" style="border: 1px solid gray;"></div>
+
+#### Adding Access to a Team Using the CLI
 
 You can also use the CLI `access` command to add package acess to a team via
 the command line as follows:
@@ -52,8 +61,11 @@ the command line as follows:
 npm access grant <read-only|read-write> <org:team> [<package>]
 ```
 
+Click [CLI access](https://docs.npmjs.com/cli/access) for more details.
+
 ## Removing Package Access from a Team
 
+<!--Note to Doc: Add Web instructions here after ship-->
 
 #### Using the CLI
 
@@ -63,6 +75,14 @@ the command line as follows:
 ```
 npm access revoke <org:team> [<package>]
 ```
+
+## Quick Links
+
+_Note: You can also navigate to your team page directly by pointing your browser at
+`https://www.npmjs.com/org/<org_name>/teams/<team_name>`._
+
+From there, click the "Teams" tab. You'll use this interface to manage the package access of your team.
+
 
 [1]: managing-teams.md
 [2]: https://docs.npmjs.com/cli/access
