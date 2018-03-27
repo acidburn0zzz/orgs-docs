@@ -5,24 +5,29 @@ featured: true
 
 # Upgrading and Downgrading
 
-This page explains how to upgrade and downgrade your Organization's plan. It also explains the implications of these actions for your package access and billing.
+This page explains how to upgrade and downgrade your Organization's plan, and what happens when you do. 
 
-You will need to have the Owner role to perform this work. For more information on roles, check out the [Roles and Privileges doc].
+You need to have the Owner role to perform this work. For more information on roles, check out the [Roles and Privileges doc].
 
 <hr/>
 
 To upgrade or downgrade your Organization, navigate to your Organization's landing
 page. You can find it at `https://www.npmjs.com/org/<org_name>`.
 
-Once you are on your Organization's landing page, click the "payment info" tab. You
-can also just point your browser at `https://www.npmjs.com/scope/<org_name>/billing`.
+Or, click your username in the avatar menu, then click Orgs from the page that appears.
 
-## Upgrading From a Free Org to a Paid Org
+Once you are on your Organization's landing page, click the "billing info" tab. You
+can also just point your browser at
+
+ `https://www.npmjs.com/settings/<org_name>/billing`.
 
 If you currently have a free Organization, but would like to add the ability to
-install and publish private packages, you'll want to upgrade your Organization.
+install and publish private packages, upgrade your Organization.
 
 Not sure if you want to upgrade? ([Learn more about the plans we offer]).
+
+## Upgrading a Free Org to a Paid Org if you have one Org
+
 
 To upgrade your Organization:
 
@@ -31,12 +36,16 @@ To upgrade your Organization:
      <div style="text-align: center;"><img src="billing-info-from-menu.png" style="border: 1px solid gray;"></div>
 
 2. Click the green `upgrade plan` button:
-
-     ![UpgradeBilling](billing-info-upgrade.png)
+     
+<div style="text-align: center;"><img src="org-free-2-upgrade.png" style="border: 1px solid gray;"></div>
 
 The next screen will confirm your choice, displaying the monthly cost calculated according to the current number of users that you have in your organization. In the screen shot, there will be 3 users, so the total is $21/month.
 
+<div style="text-align: center;"><img src="billing-info-from-menu.png" style="border: 1px solid gray;"></div>
+
 ![Billing-total](upgrade-message-three-users.png)
+ <div style="text-align: center;"><img src="billing-info-from-menu.png" style="border: 1px solid gray;"></div>
+
 
 Your upgrade goes into effect immediately. You can now publish and install
 private packages under your Organization scope. ([Learn more about publishing Org scoped packages]).
@@ -46,6 +55,9 @@ Your billing page shows a summary of your current account. As you add or subtrac
 ![billing info](billing-info-paid-user.png)
 
 If you run into any trouble with this process, please [contact npm support].
+
+## Upgrading a Free Org to a Paid Org if you have multiple Orgs
+
 
 ## Downgrading to a Free Org from a Paid Org
 
