@@ -1,10 +1,10 @@
 # Getting Started
 
-To collaborate with other developers, and manage package access, use npm Organizations. This page will teach you how to create an account using npm, then navigate npm's web interface to create an Organization.
+To collaborate with other developers, and manage package access, use npm Organizations (npm Orgs). This page will teach you how to create an account using npm, then navigate npm's web interface to create an Organization.
 
 First, [create a new npm account](https://docs.npmjs.com/getting-started/installing-node).
 
-You might want to [develop your profile settings](https://docs.npmjs.com/getting-started/modifying_your_profile_from_command_line) as well but you can create your Org first if you prefer.
+You might want to [develop your profile settings](https://docs.npmjs.com/getting-started/modifying_your_profile_from_command_line) as soon as you create an account, or you can create your Org first. This chapter explains how to create an Org. 
 
 ## 1. Create an Org
 
@@ -54,7 +54,7 @@ For more information on the features of each plan, visit our [pricing page].
 Once you have chosen your plan, click the green "Create an Org"
 button.
 
-## 2a. Enter Payment Information (paid Orgs only)
+## 2. Enter Payment Information (paid Orgs only)
 
 If you chose an Organization with access to private packages, clicking the
 green "Create an Org" button will bring up a Stripe Payments
@@ -116,15 +116,24 @@ All the users you add from this interface are:
 If the person you would like to add to your Organization does not have an
 npm username, they'll need to create an npm user account. You can send them [this link][1] to sign up.
 
-## 5. More about Billing Information (paid Orgs only)
+## Working with Billing Information 
 
-Choose Billing Info from your Avatar menu to set billing information. For example, you might want billing emails to go to a different email than the one associated with your username. (This email does *not* have to match the owner's email). Your first bill date will be one month from the date you set up your Org.
+Choose an organization from the left tab, then click the purple `$Billing` tab to see billing information:
+
+<div style="text-align: center;"><img src="org-choose-billing-free-plan.png" style="border: 1px solid gray;"></div>
+<br />
+
+In the screen shot above, the billing page for a  free Org is shown. Just click the green `upgrade plan` button if you want to [upgrade](https://www.npmjs.com/docs/orgs/upgrading-and-downgrading.html) to an Org that can manage private packages. 
+
+In the screen shot below, a paid Org is shown. Use the billing page to make adjustments to your account settings. For example, you may wish to set up an email for Org billing that differs from the email address associated with your username. The email address does *not* have to match the owner's email. 
 
 <div style="text-align: center;"><img src="bill-summary.png" style="border: 1px solid gray;"></div>
 <br />
 
-**You can change your billing info at anytime through your Organization's
-billing page.**
+Your first bill date will be one month from the date you set up your Org.
+
+**You can change your billing settings at anytime through your Organization's
+billing page. But remember not to confuse this page with the Billing Info page for your username.**
 
 [the create website]: https://www.npmjs.com/org/create
 [npm website]: https://www.npmjs.com

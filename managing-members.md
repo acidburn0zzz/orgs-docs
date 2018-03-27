@@ -32,13 +32,12 @@ To add a Member:
 
 ### Notes:
 
-- Adding an npm user as a Member to an Organization does *not* send that
+- **_Adding an npm user as a Member to an Organization does not send that
   user an email. You should tell your new team Members that you have 
-  added them!
+  added them!_**
 - All Members are automatically added to the Developers team 
 ([Learn more about the Developers team]).
-- You might want to manage the teams this Member belongs to
-([Learn more about managing teams]). 
+- Explore how you can use multiple teams to manage package access for members. ([Learn more about managing teams]). 
 
 ## Changing a Member's Role
 
